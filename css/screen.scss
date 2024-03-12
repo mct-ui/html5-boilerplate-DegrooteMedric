@@ -278,7 +278,27 @@ a:active {
 */
 
 .o-row {
+  padding: $space-m $space-m 0;
+
+  &--dark{
+    background-color: $color-text;
+    color: white;
+  }
+  &--primary{
+    background-color: $color-primary;
+    color: white;
+  }
+  &--l{
+    @include mq(bp2)
+    {
+      
+    }
+  }
+
+
+
 }
+
 
 /*
     Objects: Container
