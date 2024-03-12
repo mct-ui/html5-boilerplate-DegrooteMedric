@@ -173,17 +173,33 @@ html {
 */
 
 h1 {
+  font-size: $ms5;
+  font-weight: 700;
+  line-height: calc($baseline * 4);
+  margin-bottom: $space-m;
 }
 
 h2 {
+  font-size: $ms3;
+  font-weight: 700;
+  line-height: calc($baseline * 3);
+  margin-bottom: $space-m;
 }
 
 h3 {
+  font-size: $ms1;
+  font-weight: 700;
+  line-height: calc($baseline * 3);
+  margin-bottom: $space-m;
 }
 
 h4,
 h5,
 h6 {
+  font-size: $ms0;
+  font-weight: 700;
+  line-height: calc($baseline * 3);
+  margin-bottom: $space-m;
 }
 
 p,
@@ -193,35 +209,52 @@ dl,
 table,
 address,
 figure {
+  margin-bottom: $space-m;
 }
 
 ul,
 ol {
+  padding: 0;
+  list-style-position: inside;
 }
 
 li ul,
 li ol {
+  margin-bottom: 0;
 }
 
 blockquote {
 }
 
 figcaption {
+  font-size: $ms-1;
+  line-height: calc($baseline * 2);
+  margin-top: $space-xs;
+  color: $color-text-lighter;
 }
 
 hr {
+  bottom: 0;
+  height: 1px;
+  background: $color-border;
+  margin-bottom: $space-m;
 }
 
 a {
+  color: $color-primary;
+  transition: all 0.1s ease-in-out;
 }
 
 a:hover {
+  color:$color-primary-light;
 }
 
 a:visited {
+  color: $color-primary;
 }
 
 a:active {
+  color: $color-primary-dark;
 }
 
 /*---------------------------------------/*
